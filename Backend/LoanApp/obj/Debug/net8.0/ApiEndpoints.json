@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "LoanApp.Controllers.ApplicationsController",
+    "Method": "PostApplication",
+    "RelativePath": "api/Applications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoanApp.DTOs.ApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

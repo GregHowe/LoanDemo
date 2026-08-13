@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MockExternalService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\LoanApp\\LoanApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

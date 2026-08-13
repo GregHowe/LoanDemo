@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanApp", "LoanApp.csproj", "{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExternalService", "..\MockExternalService\MockExternalService.csproj", "{086680BB-EA29-03C4-D76E-CE574E9CA65E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6537F60-EDBE-4E38-BDE4-5E8A4E3245DB}
+	EndGlobalSection
+EndGlobal
