@@ -15,6 +15,10 @@ flowchart LR
 
 ## Components
 
+### Frontend structure
+
+The web client now lives directly under `FrontEnd` as the application root. The previous nested `FrontEnd/loan-app-frontend` path was removed, so the frontend files are organized under a single folder for the Next.js app.
+
 ### 1. API layer
 
 The ASP.NET Core API exposes a single endpoint:

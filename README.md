@@ -9,7 +9,7 @@ This repository contains the backend for a loan application approval flow with a
 - `Backend/LoanApp` — ASP.NET Core API for handling loan submissions
 - `Backend/MockExternalService` — mock downstream service for customer persistence
 - `Backend/LoanApp.Tests` — xUnit tests covering rules, service logic, and controller behavior
-- `FrontEnd/loan-app-frontend` — Next.js client app (separate scope)
+- `FrontEnd` — Next.js client app containing the web application files
 
 ## Prerequisites
 
