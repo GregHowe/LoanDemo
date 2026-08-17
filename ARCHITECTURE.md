@@ -15,6 +15,10 @@ flowchart LR
 
 ## Components
 
+### 0. Frontend client
+
+The client application is the entry point for user interaction. It captures loan requests, submits them to the API, and renders the approval or denial outcome returned by the backend.
+
 ### 1. API layer
 
 The ASP.NET Core API exposes a single endpoint:
