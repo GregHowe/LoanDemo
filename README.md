@@ -1,6 +1,6 @@
 # Niuro Loan Application
 
-Demo video: <a href="https://drive.google.com/file/d/1u3JkO0Vt2QpmRkOaTGBcsMFycxmynnLc/view?usp=sharing" target="_blank" rel="noopener noreferrer">Watch the walkthrough</a>
+Demo video: [Watch the walkthrough](https://drive.google.com/file/d/1u3JkO0Vt2QpmRkOaTGBcsMFycxmynnLc/view?usp=sharing)
 
 This repository contains a full-stack loan application flow built with .NET and Next.js. It includes a backend rule engine, transactional persistence, asynchronous background event processing, and a mock external customer service used to simulate downstream integration.
 
