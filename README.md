@@ -1,8 +1,8 @@
 # Niuro Loan Application
 
-Video demo: Add public Loom/Google Drive link here before submission.
+Demo video: [Watch the walkthrough](https://drive.google.com/file/d/1mfXSFJVHaqsJp3jxbSlTIcam-AbMOjUa/view?usp=drive_link)
 
-This repository contains the backend for a loan application approval flow with a rule engine, transactional persistence, background event dispatching, and a mock external customer service.
+This repository contains a full-stack loan application flow built with .NET and Next.js. It includes a backend rule engine, transactional persistence, asynchronous background event processing, and a mock external customer service used to simulate downstream integration.
 
 ## Project structure
 
