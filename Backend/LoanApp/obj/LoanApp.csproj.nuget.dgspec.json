@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\LoanApp.csproj": {}
+    "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\LoanApp.csproj": {}
   },
   "projects": {
-    "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\LoanApp.csproj": {
+    "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\LoanApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\LoanApp.csproj",
+        "projectUniqueName": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\LoanApp.csproj",
         "projectName": "LoanApp",
-        "projectPath": "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\LoanApp.csproj",
+        "projectPath": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\LoanApp.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\obj\\",
+        "outputPath": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,7 +31,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -46,11 +45,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -95,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanApp", "LoanApp.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExternalService", "..\MockExternalService\MockExternalService.csproj", "{086680BB-EA29-03C4-D76E-CE574E9CA65E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanApp.Tests", "..\LoanApp.Tests\LoanApp.Tests.csproj", "{DED36799-F361-35E0-1353-A5C5484DDE62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{086680BB-EA29-03C4-D76E-CE574E9CA65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED36799-F361-35E0-1353-A5C5484DDE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED36799-F361-35E0-1353-A5C5484DDE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED36799-F361-35E0-1353-A5C5484DDE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED36799-F361-35E0-1353-A5C5484DDE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

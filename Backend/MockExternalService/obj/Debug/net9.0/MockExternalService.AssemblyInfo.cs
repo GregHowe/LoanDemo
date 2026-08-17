@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MockExternalService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a7dea4be0e3887ff21ef26db7af442e5d9f3d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MockExternalService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MockExternalService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -29,7 +29,6 @@ public class ApplicationPublisher : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        // In development, ignore self-signed certificates
         var handler = new HttpClientHandler();
         if (_isDevelopment)
         {

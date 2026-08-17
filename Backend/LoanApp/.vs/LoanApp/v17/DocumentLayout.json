@@ -1,9 +1,72 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\",
+  "WorkspaceRootPath": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\backend\\loanapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DED36799-F361-35E0-1353-A5C5484DDE62}|..\\LoanApp.Tests\\LoanApp.Tests.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp.tests\\loanapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\domain\\rules\\staterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:domain\\rules\\staterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\domain\\rules\\blacklistrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:domain\\rules\\blacklistrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\infrastructure\\applicationpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:infrastructure\\applicationpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\infrastructure\\loandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:infrastructure\\loandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\domain\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:domain\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\domain\\rules\\irule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:domain\\rules\\irule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\migrations\\20260813053704_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:migrations\\20260813053704_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\migrations\\loandbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:migrations\\loandbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\infrastructure\\applicationchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:infrastructure\\applicationchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086680BB-EA29-03C4-D76E-CE574E9CA65E}|..\\MockExternalService\\MockExternalService.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\mockexternalservice\\controllers\\mockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086680BB-EA29-03C4-D76E-CE574E9CA65E}|..\\MockExternalService\\MockExternalService.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\mockexternalservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086680BB-EA29-03C4-D76E-CE574E9CA65E}|..\\MockExternalService\\MockExternalService.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\mockexternalservice\\dtos\\applicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086680BB-EA29-03C4-D76E-CE574E9CA65E}|..\\MockExternalService\\MockExternalService.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\mockexternalservice\\dtos\\applicationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|c:\\custom\\proyectospersonales\\niuro\\implementation\\backend\\loanapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9243A1FA-9F8F-43D6-9430-38B5EF3400C2}|LoanApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +77,238 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlacklistRule.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Rules\\BlacklistRule.cs",
+              "RelativeDocumentMoniker": "Domain\\Rules\\BlacklistRule.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Rules\\BlacklistRule.cs",
+              "RelativeToolTip": "Domain\\Rules\\BlacklistRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T23:25:17.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRule.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Rules\\IRule.cs",
+              "RelativeDocumentMoniker": "Domain\\Rules\\IRule.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Rules\\IRule.cs",
+              "RelativeToolTip": "Domain\\Rules\\IRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T23:25:33.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationsController.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Controllers\\ApplicationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationsController.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Controllers\\ApplicationsController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T23:25:49.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StateRule.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Rules\\StateRule.cs",
+              "RelativeDocumentMoniker": "Domain\\Rules\\StateRule.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Rules\\StateRule.cs",
+              "RelativeToolTip": "Domain\\Rules\\StateRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T23:25:10.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Application.cs",
+              "RelativeDocumentMoniker": "Domain\\Application.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Application.cs",
+              "RelativeToolTip": "Domain\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T23:25:44.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Customer.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Domain\\Customer.cs",
+              "RelativeToolTip": "Domain\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T23:25:46.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationPublisher.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Infrastructure\\ApplicationPublisher.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationPublisher.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Infrastructure\\ApplicationPublisher.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationPublisher.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:17:35.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoanDbContext.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Infrastructure\\LoanDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\LoanDbContext.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Infrastructure\\LoanDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\LoanDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:48:16.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Services\\LoanService.cs",
+              "RelativeToolTip": "Services\\LoanService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:25:56.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoanApplicationTests.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp.Tests\\LoanApplicationTests.cs",
+              "RelativeDocumentMoniker": "..\\LoanApp.Tests\\LoanApplicationTests.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp.Tests\\LoanApplicationTests.cs",
+              "RelativeToolTip": "..\\LoanApp.Tests\\LoanApplicationTests.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T22:24:57.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260813053704_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Migrations\\20260813053704_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260813053704_InitialCreate.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Migrations\\20260813053704_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260813053704_InitialCreate.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:07:03.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoanDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Migrations\\LoanDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\LoanDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Migrations\\LoanDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\LoanDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:07:03.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationChannel.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Infrastructure\\ApplicationChannel.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationChannel.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Infrastructure\\ApplicationChannel.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationChannel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:27:23.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MockController.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\Controllers\\MockController.cs",
+              "RelativeDocumentMoniker": "..\\MockExternalService\\Controllers\\MockController.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\Controllers\\MockController.cs",
+              "RelativeToolTip": "..\\MockExternalService\\Controllers\\MockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:09:59.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\Program.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MockExternalService\\Program.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\Program.cs",
+              "RelativeToolTip": "..\\MockExternalService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:07:13.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationRequest.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\DTOs\\ApplicationRequest.cs",
+              "RelativeDocumentMoniker": "..\\MockExternalService\\DTOs\\ApplicationRequest.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\DTOs\\ApplicationRequest.cs",
+              "RelativeToolTip": "..\\MockExternalService\\DTOs\\ApplicationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:11:04.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationResult.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\DTOs\\ApplicationResult.cs",
+              "RelativeDocumentMoniker": "..\\MockExternalService\\DTOs\\ApplicationResult.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\MockExternalService\\DTOs\\ApplicationResult.cs",
+              "RelativeToolTip": "..\\MockExternalService\\DTOs\\ApplicationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T00:11:07.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\Backend\\LoanApp\\Program.cs",
+              "ToolTip": "C:\\Custom\\ProyectosPersonales\\Niuro\\implementation\\Backend\\LoanApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-13T14:36:33.978Z",
               "EditorCaption": ""
