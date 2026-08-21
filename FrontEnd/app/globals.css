@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4f6f3;
+  --foreground: #17211d;
+  --ink: #17211d;
+  --muted: #66736c;
+  --line: #d8dfd9;
+  --accent: #d8f25e;
+  --accent-dark: #293818;
+  --panel: #ffffff;
 }
 
 @theme inline {
@@ -12,15 +18,92 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+.application-shell {
+  min-height: 100vh;
+  padding: 32px;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 12% 12%, #e5f0cf 0, transparent 28%), var(--background);
+}
+
+.application-layout {
+  width: min(1080px, 100%);
+  display: grid;
+  grid-template-columns: minmax(280px, .78fr) minmax(0, 1.22fr);
+  background: var(--panel);
+  box-shadow: 0 20px 60px rgba(31, 48, 38, .11);
+}
+
+.application-intro {
+  padding: clamp(32px, 5vw, 72px) clamp(28px, 5vw, 64px);
+  display: flex;
+  flex-direction: column;
+  background: var(--ink);
+  color: #f7fbf6;
+  background-image: linear-gradient(145deg, rgba(216, 242, 94, .15), transparent 48%);
+}
+
+.brand-mark {
+  width: 42px; height: 42px; display: grid; place-items: center; margin-bottom: 70px;
+  border: 1px solid rgba(216, 242, 94, .6); color: var(--accent); font-weight: 700; font-size: 22px;
+}
+
+.eyebrow { margin: 0 0 14px; color: #718078; font-size: 11px; font-weight: 700; letter-spacing: .12em; }
+.application-intro .eyebrow { color: var(--accent); }
+.application-intro h1 { max-width: 350px; margin: 0; font-size: clamp(36px, 4vw, 56px); line-height: 1.02; letter-spacing: -.04em; }
+.intro-copy { max-width: 310px; margin: 24px 0 0; color: #b8c4bc; line-height: 1.6; }
+.trust-note { display: flex; gap: 10px; align-items: center; margin-top: auto; padding-top: 72px; color: #d9e3dc; font-size: 13px; }
+.trust-icon { width: 22px; height: 22px; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: var(--accent-dark); font-weight: 800; }
+
+.application-form { padding: clamp(30px, 5vw, 64px); color: var(--ink); }
+.form-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+.form-heading h2 { margin: 0; font-size: 30px; letter-spacing: -.035em; }
+.required-note { color: var(--muted); font-size: 12px; }
+.form-description { max-width: 500px; margin: 12px 0 34px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+fieldset { margin: 0 0 30px; padding: 0; border: 0; }
+legend { margin-bottom: 16px; color: var(--ink); font-size: 14px; font-weight: 700; }
+.field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.field-group { display: flex; flex-direction: column; gap: 8px; margin-bottom: 18px; color: #425149; font-size: 12px; font-weight: 600; }
+.field-group > span { color: #779300; }
+input { width: 100%; min-height: 44px; border: 1px solid var(--line); border-radius: 2px; padding: 0 13px; color: var(--ink); background: #fbfcfb; font: inherit; font-size: 14px; outline: none; transition: border-color .15s, box-shadow .15s, background .15s; }
+input:focus { border-color: #91a94b; background: #fff; box-shadow: 0 0 0 3px rgba(216, 242, 94, .3); }
+input[aria-invalid="true"] { border-color: #b6493b; }
+input::placeholder { color: #a2ada6; }
+.input-prefix { position: relative; }
+.input-prefix > span { position: absolute; left: 13px; top: 13px; color: var(--muted); font-weight: 500; }
+.input-prefix input { padding-left: 28px; }
+.field-error { color: #a43f34; font-size: 11px; font-weight: 500; }
+.form-error { margin: -12px 0 24px; padding: 12px 14px; border-left: 3px solid #b6493b; background: #fff1ef; color: #8c3027; font-size: 13px; }
+.submit-button { width: 100%; min-height: 48px; display: flex; align-items: center; justify-content: space-between; border: 0; border-radius: 2px; padding: 0 18px; background: var(--accent); color: var(--accent-dark); font: inherit; font-size: 14px; font-weight: 750; cursor: pointer; transition: transform .15s, background .15s; }
+.submit-button:hover:not(:disabled) { background: #c8e64c; transform: translateY(-1px); }
+.submit-button:disabled { cursor: wait; opacity: .7; }
+.form-footnote { margin: 14px 0 0; color: #88938c; font-size: 11px; line-height: 1.5; text-align: center; }
+.result-shell { min-height: 100vh; display: grid; place-items: center; padding: 32px; background: radial-gradient(circle at 80% 15%, #e5f0cf 0, transparent 30%), var(--background); }
+.result-panel { width: min(520px, 100%); padding: 56px; background: var(--panel); box-shadow: 0 20px 60px rgba(31, 48, 38, .11); }
+.result-icon { width: 52px; height: 52px; display: grid; place-items: center; margin-bottom: 42px; border-radius: 50%; font-size: 24px; font-weight: 800; }
+.result-approved .result-icon { background: var(--accent); color: var(--accent-dark); }
+.result-denied .result-icon { background: #f7d8d2; color: #8c3027; }
+.result-panel h1 { margin: 0; color: var(--ink); font-size: 38px; line-height: 1.05; letter-spacing: -.04em; }
+.result-panel p:not(.eyebrow) { margin: 16px 0 34px; color: var(--muted); line-height: 1.6; }
+.result-button { width: 100%; min-height: 48px; display: flex; align-items: center; justify-content: space-between; border: 0; border-radius: 2px; padding: 0 18px; background: var(--ink); color: #fff; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+.result-button:hover { background: #34463b; }
+
+@media (max-width: 700px) {
+  .application-shell { padding: 0; place-items: stretch; }
+  .application-layout { grid-template-columns: 1fr; }
+  .application-intro { min-height: 310px; padding: 28px; }
+  .brand-mark { margin-bottom: 38px; }
+  .trust-note { padding-top: 36px; }
+  .application-form { padding: 32px 24px 40px; }
+  .result-shell { padding: 20px; }
+  .result-panel { padding: 34px 26px; }
+  .result-panel h1 { font-size: 32px; }
 }

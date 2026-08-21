@@ -8,20 +8,17 @@ function DeniedContent() {
   const reason = params.get("reason");
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-red-100">
-      <div className="max-w-md w-full p-6 bg-red-600 text-white shadow rounded text-center">
-        <h1 className="text-2xl font-bold mb-4">Application Denied ❌</h1>
-        <p className="text-lg mb-6">
-          {reason ? `Reason: ${reason}` : "Your loan application was denied."}
-        </p>
-        <button
-          onClick={() => router.push("/")}
-          className="bg-white text-red-700 px-4 py-2 rounded"
-        >
-          Back to Home
+    <main className="result-shell result-denied">
+      <div className="result-panel">
+        <div className="result-icon" aria-hidden="true">!</div>
+        <p className="eyebrow">NIURO / APPLICATION STATUS</p>
+        <h1>Application not approved</h1>
+        <p>{reason || "Your loan application did not meet the approval criteria."}</p>
+        <button onClick={() => router.push("/")} className="result-button">
+          Review your application <span aria-hidden="true">→</span>
         </button>
       </div>
-    </div>
+    </main>
   );
 }
 

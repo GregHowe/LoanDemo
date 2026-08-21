@@ -5,17 +5,19 @@ export default function ApprovedPage() {
   const router = useRouter();
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-green-100">
-      <div className="max-w-md w-full p-6 bg-green-600 text-white shadow rounded text-center">
-        <h1 className="text-2xl font-bold mb-4">Application Approved ✅</h1>
-        <p className="text-lg mb-6">Your loan application has been successfully approved.</p>
+    <main className="result-shell result-approved">
+      <div className="result-panel">
+        <div className="result-icon" aria-hidden="true">✓</div>
+        <p className="eyebrow">NIURO / APPLICATION STATUS</p>
+        <h1>Application approved</h1>
+        <p>Your loan application has been successfully approved.</p>
         <button
           onClick={() => router.push("/")}
-          className="bg-white text-green-700 px-4 py-2 rounded"
+          className="result-button"
         >
-          Back to Home
+          Start a new application <span aria-hidden="true">→</span>
         </button>
       </div>
-    </div>
+    </main>
   );
 }
